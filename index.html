@@ -1,21 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./style.css" rel="stylesheet">
-  <title>dr. prashant salve</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+    <title>dr. prashant salve</title>
 </head>
+
+<style>
+    .mainImageClass {
+        /*clip-path: circle(52.6% at 50% 46%);*/
+        clip-path: polygon(0 0, 100% 0, 100% 20%, 100% 80%, 85% 100%, 85% 100%, 0 85%, 0% 20%);
+
+        filter: drop-shadow(16px 16px 10px black);
+    }
+</style>
+
 <body class="bg-gradient-to-r from-teal-400 to-cyan-500 px-4">
-  <!-- main banner starts -->
-  <div class="flex flex-col">
-      <!-- navBar starts -->
-      <div class="w-full h-[8vh] flex items-center">
-          <img src="./static/logo.png" class="w-44" />
-      </div>
-      <!-- navBar ends -->
-      <!-- banner starts -->
-      <div class='flex flex-col md:flex-row items-center justify-center md:h-[92vh] gap-x-14'>
+    <!-- main banner starts -->
+    <div class="flex flex-col">
+        <!-- navBar starts -->
+        <div class="w-full h-[8vh] flex items-center">
+            <img src="./static/logo.png" class="w-44" />
+        </div>
+        <!-- navBar ends -->
+        <!-- banner starts -->
+        <!-- <div class='flex flex-col md:flex-row items-center justify-center md:h-[92vh] gap-x-14'>
 
           <img alt='Hero Img' src="static/bannerImg.jpeg"
               class='w-[20vw] h-auto rounded-2xl drop-shadow-2xl hidden md:block' />
@@ -26,94 +37,106 @@
               <h2 class='font-sans text-xl'>MBBS D.ORTHO (Mumbai)</h2>
               <p class=' text-md font-sans'>Consultating Orthopaedic and Trauma Surgeon</p>
           </div>
-      </div>
-      <!-- banner ends -->
-  </div>
-  <!-- main banner ends -->
-  <div class="flex flex-col items-center">
-      <div class="text-2xl md:text-4xl font-semibold">Speciality</div>
-      <!-- cards starts -->
-      <div class="grid grid-cols-3 grip-col-4 md:grid-cols-4 md:grid-rows-3 w-full gap-3 md:gap-6 my-4 items-center">
-          <div
-              class="capitalize bg-cyan-600 py-2 px-3 md:py-3 md:px-4 rounded-md text-[#f4f6f5] text-center break-word flex justify-center items-center w-full h-full">
-              trauma and fracture
-          </div>
-          <div
-              class="capitalize bg-cyan-600 py-2 px-3 md:py-3 md:px-4 rounded-md text-[#f4f6f5] text-center break-word flex justify-center items-center w-full h-full">
-              Sports injuries
-          </div>
-          <div
-              class="capitalize bg-cyan-600 py-2 px-3 md:py-3 md:px-4 rounded-md text-[#f4f6f5] text-center break-word flex justify-center items-center w-full h-full">
-              spine Injury
-          </div>
-          <div
-              class="capitalize bg-cyan-600 py-2 px-3 md:py-3 md:px-4 rounded-md text-[#f4f6f5] text-center break-word flex justify-center items-center w-full h-full">
-              heel pain</div>
-          <div
-              class="capitalize bg-cyan-600 py-2 px-3 md:py-3 md:px-4 rounded-md text-[#f4f6f5] text-center break-word flex justify-center items-center w-full h-full">
-              Neck pain
-          </div>
+      </div> -->
+      <div class='flex flex-col md:flex-row items-center justify-center md:h-[92vh] gap-x-14'>
 
-          <div
-              class="capitalize bg-cyan-600 py-2 px-3 md:py-3 md:px-4 rounded-md text-[#f4f6f5] text-center break-word flex justify-center items-center w-full h-full">
-              psoriatic arthritis
-          </div>
-          <div
-              class="capitalize bg-cyan-600 py-2 px-3 md:py-3 md:px-4 rounded-md text-[#f4f6f5] text-center break-word flex justify-center items-center w-full h-full">
-              Closed reduction with plaster
-          </div>
-          <div
-              class="capitalize bg-cyan-600 py-2 px-3 md:py-3 md:px-4 rounded-md text-[#f4f6f5] text-center break-word flex justify-center items-center w-full h-full">
-              back pain
-          </div>
-          <div
-              class="capitalize bg-cyan-600 py-2 px-3 md:py-3 md:px-4 rounded-md text-[#f4f6f5] text-center break-word flex justify-center items-center w-full h-full">
-              gout</div>
-          <div
-              class="capitalize bg-cyan-600 py-2 px-3 md:py-3 md:px-4 rounded-md text-[#f4f6f5] text-center break-word flex justify-center items-center w-full h-full">
-              knee pain
-          </div>
-          <div
-              class="capitalize bg-cyan-600 py-2 px-3 md:py-3 md:px-4 rounded-md text-[#f4f6f5] text-center break-word flex justify-center items-center w-full h-full">
-              juvenile
-              arthritis</div>
+            <img alt='Hero Img' src="static/bannerImg.jpeg" class='w-[70vw] md:w-[20vw] h-[300px] md:h-auto rounded-2xl drop-shadow-2xl'/>
 
-          <div
-              class="capitalize bg-cyan-600 py-2 px-3 md:py-3 md:px-4 rounded-md text-[#f4f6f5] text-center break-word flex justify-center items-center w-full h-full">
-              muscle spasm
-          </div>
-          <div
-              class="capitalize bg-cyan-600 py-2 px-3 md:py-3 md:px-4 rounded-md text-[#f4f6f5] text-center break-word flex justify-center items-center w-full h-full">
-              waist pain</div>
-          <div
-              class="capitalize bg-cyan-600 py-2 px-3 md:py-3 md:px-4 rounded-md text-[#f4f6f5] text-center break-word flex justify-center items-center w-full h-full">
-              Cervical pain</div>
-          <div
-              class="capitalize bg-cyan-600 py-2 px-3 md:py-3 md:px-4 rounded-md text-[#f4f6f5] text-center break-word flex justify-center items-center w-full h-full">
-              Prolapse intervertebral disc</div>
-          <div
-              class="capitalize bg-cyan-600 py-2 px-3 md:py-3 md:px-4 rounded-md text-[#f4f6f5] text-center break-word flex justify-center items-center w-full h-full">
-              wrist pain</div>
-      </div>
-      <!-- cards ends -->
-  </div>
+            <div class="mt-6 md:mt-0">
+                <p class='text-[#ecf8f4] text-2xl font-sans'>Life Care Ortho Clinic</p>
+                <h1 class='text-3xl md:text-6xl md:leading-[60px] text-[#f4f6f5]'>Dr. Prashant Shantaram Salve</h1>
+                <h2 class='font-sans text-xl'>MBBS D.ORTHO (Mumbai)</h2>
+                <p class=' text-md font-sans'>Consultating Orthopaedic and Trauma Surgeon</p>
+            </div>
+        </div>
+        <!-- banner ends -->
+    </div>
+    <!-- main banner ends -->
+    <div class="flex flex-col items-center">
+        <div class="text-2xl md:text-4xl font-semibold">Speciality</div>
+        <!-- cards starts -->
+        <div class="grid grid-cols-3 grip-col-4 md:grid-cols-4 md:grid-rows-3 w-full gap-3 md:gap-6 my-4 items-center">
+            <div
+                class="capitalize bg-cyan-600 py-2 px-3 md:py-3 md:px-4 rounded-md text-[#f4f6f5] text-center break-word flex justify-center items-center w-full h-full">
+                trauma and fracture
+            </div>
+            <div
+                class="capitalize bg-cyan-600 py-2 px-3 md:py-3 md:px-4 rounded-md text-[#f4f6f5] text-center break-word flex justify-center items-center w-full h-full">
+                Sports injuries
+            </div>
+            <div
+                class="capitalize bg-cyan-600 py-2 px-3 md:py-3 md:px-4 rounded-md text-[#f4f6f5] text-center break-word flex justify-center items-center w-full h-full">
+                spine Injury
+            </div>
+            <div
+                class="capitalize bg-cyan-600 py-2 px-3 md:py-3 md:px-4 rounded-md text-[#f4f6f5] text-center break-word flex justify-center items-center w-full h-full">
+                heel pain</div>
+            <div
+                class="capitalize bg-cyan-600 py-2 px-3 md:py-3 md:px-4 rounded-md text-[#f4f6f5] text-center break-word flex justify-center items-center w-full h-full">
+                Neck pain
+            </div>
 
-  <!-- footer starts -->
-  <div class="flex flex-col items-center my-4">
-      <div class="text-2xl md:text-4xl font-semibold">Timings</div>
+            <div
+                class="capitalize bg-cyan-600 py-2 px-3 md:py-3 md:px-4 rounded-md text-[#f4f6f5] text-center break-word flex justify-center items-center w-full h-full">
+                psoriatic arthritis
+            </div>
+            <div
+                class="capitalize bg-cyan-600 py-2 px-3 md:py-3 md:px-4 rounded-md text-[#f4f6f5] text-center break-word flex justify-center items-center w-full h-full">
+                Closed reduction with plaster
+            </div>
+            <div
+                class="capitalize bg-cyan-600 py-2 px-3 md:py-3 md:px-4 rounded-md text-[#f4f6f5] text-center break-word flex justify-center items-center w-full h-full">
+                back pain
+            </div>
+            <div
+                class="capitalize bg-cyan-600 py-2 px-3 md:py-3 md:px-4 rounded-md text-[#f4f6f5] text-center break-word flex justify-center items-center w-full h-full">
+                gout</div>
+            <div
+                class="capitalize bg-cyan-600 py-2 px-3 md:py-3 md:px-4 rounded-md text-[#f4f6f5] text-center break-word flex justify-center items-center w-full h-full">
+                knee pain
+            </div>
+            <div
+                class="capitalize bg-cyan-600 py-2 px-3 md:py-3 md:px-4 rounded-md text-[#f4f6f5] text-center break-word flex justify-center items-center w-full h-full">
+                juvenile
+                arthritis</div>
 
-      <div class="capitalize mt-4 font-semibold">Monday - Saturday</div>
-      <div class="capitalize">Morning 10:00 a.m to 2:00 p.m</div>
-      <div class="capitalize">Evening 6:00 p.m to 9:00 p.m</div>
-      <div class="capitalize mt-4 font-semibold">Phone number: +91 9599024879</div>
+            <div
+                class="capitalize bg-cyan-600 py-2 px-3 md:py-3 md:px-4 rounded-md text-[#f4f6f5] text-center break-word flex justify-center items-center w-full h-full">
+                muscle spasm
+            </div>
+            <div
+                class="capitalize bg-cyan-600 py-2 px-3 md:py-3 md:px-4 rounded-md text-[#f4f6f5] text-center break-word flex justify-center items-center w-full h-full">
+                waist pain</div>
+            <div
+                class="capitalize bg-cyan-600 py-2 px-3 md:py-3 md:px-4 rounded-md text-[#f4f6f5] text-center break-word flex justify-center items-center w-full h-full">
+                Cervical pain</div>
+            <div
+                class="capitalize bg-cyan-600 py-2 px-3 md:py-3 md:px-4 rounded-md text-[#f4f6f5] text-center break-word flex justify-center items-center w-full h-full">
+                Prolapse intervertebral disc</div>
+            <div
+                class="capitalize bg-cyan-600 py-2 px-3 md:py-3 md:px-4 rounded-md text-[#f4f6f5] text-center break-word flex justify-center items-center w-full h-full">
+                wrist pain</div>
+        </div>
+        <!-- cards ends -->
+    </div>
 
-      <div class="capitalize text-center mt-4 font-semibold">Address: B1, shop no. 1 gayatridham sector 1, ganesh
-          mandir road,<br />
-          manda Titwala
-          (east)
-      </div>
-  </div>
-  <!-- footer ends -->
+    <!-- footer starts -->
+    <div class="flex flex-col items-center my-4">
+        <div class="text-2xl md:text-4xl font-semibold">Timings</div>
+
+        <div class="capitalize mt-4 font-semibold">Monday - Saturday</div>
+        <div class="capitalize">Morning 10:00 a.m to 2:00 p.m</div>
+        <div class="capitalize">Evening 6:00 p.m to 9:00 p.m</div>
+        <div class="capitalize mt-4 font-semibold">Phone number: +91 9599024879</div>
+
+        <div class="capitalize text-center mt-4 font-semibold">Address: B1, shop no. 1 gayatridham sector 1, ganesh
+            mandir road,<br />
+            manda Titwala
+            (east)
+        </div>
+    </div>
+    <!-- footer ends -->
 
 </body>
+
 </html>
